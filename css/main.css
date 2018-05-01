@@ -1,3 +1,91 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+box-sizing: border-box;
+font-family: 'Monserrat', sans-serif;
+
+
+}
+header {
+  background-image: url("./../assets/images/hero.gif");
+  text-align: center;
+  height: 750px;
+  width: 100%;
+  background-size: cover;
+}
+
+
+.video {
+margin-top: 40%;
+
+
+}
+nav {
+  position: relative;
+  left: 50%;
+  top: -8%;
+  height: 10%;
+  width: 50%;
+
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+display: inline-block;
+padding-right: 50px;
+}
+
+a:hover {
+ color: #E204AD;
+}
+
+.imagesUp img {
+
+    width: 5%;
+    margin-right:80%;
+    margin-top: 3%;
+}
+
+.formulario {
+
+  margin-left: 40%;
+  margin-top: 0;
+
+}
+
+#firstVideo {
+  outline: 1px solid blue;
+  width: 40%;
+}
+.firstVideo {
+  display: inline-block;
+}
+
+.titleForm {
+outline: 1px solid yellow;
+width: 35%;
+float: right;
+background: #ffffff;
+
+
+}
+
+ #blue {
+  color: #352384;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#black {
+  margin-bottom: 10%;
+}
+
+input {
+display: inline-block;
+margin-bottom: 5%;
+}
+
+#phoneNumber {
+width: 30%;
+
+}
